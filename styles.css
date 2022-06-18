@@ -1,0 +1,10 @@
+#navbar {
+  position: fixed;
+  top: 0;
+}
+
+@media only screen and (max-width: 620px) {
+  #navbar, #welcome-section, #projects {
+    width: 100%;
+  }
+}
